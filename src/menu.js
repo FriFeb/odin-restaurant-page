@@ -1,8 +1,8 @@
 import { content, renderNavbar } from "./navbar";
 
-renderNavbar();
-
 export function renderMenuPage() {
+  renderNavbar(1);
+
   content.innerHTML += `
  
   <div style="height: 100vh; padding-top: 4rem;"> 

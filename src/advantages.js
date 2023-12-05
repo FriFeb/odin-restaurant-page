@@ -1,8 +1,8 @@
 import { content, renderNavbar } from "./navbar";
 
-renderNavbar();
-
 export function renderAdvantagesPage() {
+  renderNavbar(2);
+
   content.innerHTML += `
 
   <div style="background-image: radial-gradient(rgba(255,255,255,1) 70%, transparent), 

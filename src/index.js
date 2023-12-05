@@ -5,7 +5,4 @@ import { renderCreditsPage } from "./credits";
 
 document.addEventListener("DOMContentLoaded", () => {
   renderHomePage();
-  // renderMenuPage();
-  // renderAdvantagesPage();
-  // renderCreditsPage();
 });

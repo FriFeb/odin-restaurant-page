@@ -1,8 +1,8 @@
 import { content, renderNavbar } from "./navbar";
 
-renderNavbar();
-
 export function renderHomePage() {
+  renderNavbar(0);
+
   content.innerHTML += `
 
   <div style="

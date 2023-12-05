@@ -1,8 +1,8 @@
 import { content, renderNavbar } from "./navbar";
 
-renderNavbar();
-
 export function renderCreditsPage() {
+  renderNavbar(3);
+
   content.innerHTML += `
 
   <div style="height: 100vh; padding-top: 4rem;"> 
