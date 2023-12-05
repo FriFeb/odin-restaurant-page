@@ -1,3 +1,11 @@
-import { renderSitePages } from "./site";
+import { renderHomePage } from "./home";
+import { renderMenuPage } from "./menu";
+import { renderAdvantagesPage } from "./advantages";
+import { renderCreditsPage } from "./credits";
 
-document.addEventListener("DOMContentLoaded", renderSitePages);
+document.addEventListener("DOMContentLoaded", () => {
+  renderHomePage();
+  // renderMenuPage();
+  // renderAdvantagesPage();
+  // renderCreditsPage();
+});
