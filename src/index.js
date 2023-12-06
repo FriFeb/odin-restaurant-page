@@ -1,8 +1,5 @@
-import { renderHomePage } from "./home";
-import { renderMenuPage } from "./menu";
-import { renderAdvantagesPage } from "./advantages";
-import { renderCreditsPage } from "./credits";
+import * as Pages from "./pages";
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderHomePage();
+  Pages.renderHomePage();
 });
