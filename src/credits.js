@@ -5,7 +5,7 @@ export function renderCreditsPage() {
 
   content.innerHTML += `
 
-  <div style="height: 100vh; padding-top: 4rem;"> 
+  <div style="padding-top: 4rem;"> 
     <div class="container-lg py-3">
       <h1 class="mb-4 fw-bold text-center">Credits</h1>
 

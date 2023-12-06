@@ -6,9 +6,7 @@ export function renderAdvantagesPage() {
   content.innerHTML += `
 
   <div style="background-image: radial-gradient(rgba(255,255,255,1) 70%, transparent), 
-    url(/src/images/advantages_background.jpg); 
-    height: 100vh;
-    padding-top: 4rem;">
+    url(/src/images/advantages_background.jpg); padding-top: 4rem;">
     <div class="container-lg text-center py-3">
       <h1 class="mb-4 fw-bold">Our advantages</h1>
 

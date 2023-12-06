@@ -5,7 +5,7 @@ export function renderMenuPage() {
 
   content.innerHTML += `
  
-  <div style="height: 100vh; padding-top: 4rem;"> 
+  <div style="padding-top: 4rem;"> 
     <div class="container-lg text-center py-3">
       <h1 class="mb-4 fw-bold">Menu</h1>
 
