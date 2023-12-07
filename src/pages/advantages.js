@@ -1,3 +1,8 @@
+import advantagesBackgroundImage from "/src/images/advantages_background.jpg";
+import friendsImage from "/src/images/advantages/friends.png";
+import engagementImage from "/src/images/advantages/engagement.png";
+import deliveryImage from "/src/images/advantages/fast-delivery.png";
+import ingredientsImage from "/src/images/advantages/vegetables.png";
 import { content, renderNavbar, highlightNavLink } from "./navbar";
 
 export function renderAdvantagesPage() {
@@ -7,13 +12,13 @@ export function renderAdvantagesPage() {
   content.innerHTML += `
 
   <div style="background-image: radial-gradient(rgba(255,255,255,1) 70%, transparent), 
-    url(/src/images/advantages_background.jpg); padding-top: 4rem;">
+    url(${advantagesBackgroundImage}); padding-top: 4rem;">
     <div class="container-lg text-center py-3">
       <h1 class="mb-4 fw-bold">Our advantages</h1>
 
       <div class="row align-items-center mb-5">
         <div class="col-md-4 order-md-2 mb-3 mb-md-0">
-          <img src="/src/images/advantages/friends.png" alt="" style="width: 150px;">
+          <img src="${friendsImage}" alt="" style="width: 150px;">
         </div>
 
         <div class="col-md-8 order-md-1 text-md-start">
@@ -30,7 +35,7 @@ export function renderAdvantagesPage() {
 
       <div class="row align-items-center mb-5">
         <div class="col-md-4 order-md-1 mb-3 mb-md-0">
-          <img src="/src/images/advantages/engagement.png" alt="" style="width: 150px;">
+          <img src="${engagementImage}" alt="" style="width: 150px;">
         </div>
 
         <div class="col-md-8 order-md-2 text-md-start">
@@ -47,7 +52,7 @@ export function renderAdvantagesPage() {
 
       <div class="row align-items-center mb-5">
         <div class="col-md-4 order-md-2 mb-3 mb-md-0">
-          <img src="/src/images/advantages/fast-delivery.png" alt="" style="width: 150px;">
+          <img src="${deliveryImage}" alt="" style="width: 150px;">
         </div>
 
         <div class="col-md-8 order-md-1 text-md-start">
@@ -64,7 +69,7 @@ export function renderAdvantagesPage() {
 
       <div class="row align-items-center">
         <div class="col-md-4 order-md-1 mb-3 mb-md-0">
-          <img src="/src/images/advantages/vegetables.png " alt="" style="width: 150px;">
+          <img src="${ingredientsImage}" alt="" style="width: 150px;">
         </div>
 
         <div class="col-md-8 order-md-2 text-md-start">

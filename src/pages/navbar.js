@@ -1,3 +1,4 @@
+import logoImage from "/src/images/logo.png";
 export const content = document.getElementById("content");
 
 export function renderNavbar() {
@@ -9,7 +10,7 @@ export function renderNavbar() {
         <span class="navbar-toggler-icon"></span>
       </button>
       <a href="#" class="navbar-brand fw-bold">
-        <img src="/src/images/logo.png" alt="Logo" style="width: 50px;">
+        <img src="${logoImage}" alt="Logo" style="width: 50px;">
         Pizza Shop
       </a>
       <div class="row collapse navbar-collapse justify-content-end" id="navbarNav">

@@ -1,3 +1,4 @@
+import homeBackgroundImage from "/src/images/hero_background.jpg";
 import { content, renderNavbar, highlightNavLink } from "./navbar";
 
 export function renderHomePage() {
@@ -10,7 +11,7 @@ export function renderHomePage() {
         position: relative;
         background-image: 
         linear-gradient(to right, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.4) 50%, transparent 55%), 
-        url(/src/images/hero_background.jpg);
+        url(${homeBackgroundImage});
         background-position: 50%;
         background-size: cover;
         height: 100vh;

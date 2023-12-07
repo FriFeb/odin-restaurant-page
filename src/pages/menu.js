@@ -1,3 +1,11 @@
+import carbonaraImage from "/src/images/menu/diabolo-pizzapieces.avif";
+import havaiiImage from "/src/images/menu/havaiska-300dpi-min.avif";
+import manhattanImage from "/src/images/menu/manhatten-slice-collageweb-min.avif";
+import fiveCheesesImage from "/src/images/menu/piat-syrov-300dpi-min.avif";
+import royalCheeseburgerImage from "/src/images/menu/royal-slice-retoch-min-min.avif";
+import spicyImage from "/src/images/menu/spaisy-300dpi-min.avif";
+import texasImage from "/src/images/menu/tekhas-300dpi-min.avif";
+import hamMushroomsImage from "/src/images/menu/vetchina-i-griby.avif";
 import { content, renderNavbar, highlightNavLink } from "./navbar";
 
 export function renderMenuPage() {
@@ -14,7 +22,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/diabolo-pizzapieces.avif" class="card-image-top"></img>
+            <img src="${carbonaraImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -38,7 +46,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/havaiska-300dpi-min.avif" class="card-image-top"></img>
+            <img src="${havaiiImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -62,7 +70,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/manhatten-slice-collageweb-min.avif" class="card-image-top"></img>
+            <img src="${manhattanImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -86,7 +94,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/piat-syrov-300dpi-min.avif" class="card-image-top"></img>
+            <img src="${fiveCheesesImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -110,7 +118,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/royal-slice-retoch-min-min.avif" class="card-image-top"></img>
+            <img src="${royalCheeseburgerImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -134,7 +142,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/spaisy-300dpi-min.avif" class="card-image-top"></img>
+            <img src="${spicyImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -158,7 +166,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/tekhas-300dpi-min.avif" class="card-image-top"></img>
+            <img src="${texasImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
@@ -182,7 +190,7 @@ export function renderMenuPage() {
 
         <div class="col">
           <div class="card h-100">
-            <img src="/src/images/menu/vetchina-i-griby.avif" class="card-image-top"></img>
+            <img src="${hamMushroomsImage}" class="card-image-top"></img>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-center align-items-center flex-grow-1">
