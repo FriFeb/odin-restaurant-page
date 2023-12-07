@@ -1,7 +1,8 @@
-import { content, renderNavbar } from "./navbar";
+import { content, renderNavbar, highlightNavLink } from "./navbar";
 
 export function renderAdvantagesPage() {
-  renderNavbar(2);
+  renderNavbar();
+  highlightNavLink(2);
 
   content.innerHTML += `
 

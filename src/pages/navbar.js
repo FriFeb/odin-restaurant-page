@@ -1,6 +1,6 @@
 export const content = document.getElementById("content");
 
-export function renderNavbar(navLinkIndex) {
+export function renderNavbar() {
   content.innerHTML = `
 
   <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
@@ -23,15 +23,6 @@ export function renderNavbar(navLinkIndex) {
     </div>
   </nav>
   `;
-
-  highlightElement(".nav-link", navLinkIndex);
-}
-
-function highlightElement(elementsSelector, elementIndex) {
-  const elementList = document.querySelectorAll(elementsSelector);
-
-  deactivateElements(elementList);
-  activateElement(elementList, elementIndex);
 }
 
 function deactivateElements(elementList) {
@@ -53,6 +44,19 @@ function activateElement(elementList, elementIndex) {
     targetElement.setAttribute("aria-current", "page");
   }
 }
+
+function createHighlightFunction(elementsSelector) {
+  function highlightElement(elementIndex) {
+    const elementList = document.querySelectorAll(elementsSelector);
+
+    deactivateElements(elementList);
+    activateElement(elementList, elementIndex);
+  }
+
+  return highlightElement;
+}
+
+export const highlightNavLink = createHighlightFunction(".nav-link");
 
 // function highlightNavLink(navLinkIndex) {
 //   const navLinks = document.querySelectorAll(".nav-link");
